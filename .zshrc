@@ -2,6 +2,27 @@
 export ZSH=$HOME/.oh-my-zsh
 DISABLE_AUTO_UPDATE=true
 
+
+# -----------------------------------------------------------------ZGEN CONFIG
+# load zgen
+source "${HOME}/.zgen/zgen.zsh"
+
+# if the init scipt doesn't exist
+if ! zgen saved; then
+    echo "Creating a zgen save"
+
+    zgen oh-my-zsh
+
+    # plugins
+    zgen oh-my-zsh plugins/git
+    zgen oh-my-zsh plugins/tmux
+    
+    # save all to init script
+    zgen save
+fi
+# -------------------------------------------------------------END ZGEN CONFIG
+
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
