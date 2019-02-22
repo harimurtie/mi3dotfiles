@@ -1,0 +1,22 @@
+Terminal,tilix,utilities-terminal
+Browser,qutebrowser,qutebrowser
+Chrome,google-chrome-stable --disable-gpu,google-chrome
+File manager,caja,system-file-manager
+Writer,libreoffice --writer,libreoffice-writer
+Calc,libreoffice --calc,libreoffice-calc
+Impress,libreoffice --impress,libreoffice-impress
+Game,gcompris-qt,gcompris
+PPSSPP,ppsspp ,ppsspp
+VLC,vlc,vlc
+Suspend,betterlockscreen -s,system-lock-screen
+Power,^checkout(exit),system-log-out
+^tag(exit)
+Logout,i3-msg exit,system-log-out
+Reboot,systemctl -i reboot,system-reboot
+Poweroff,systemctl -i poweroff,system-shutdown
+^sep()
+Misc,^checkout(exit),system-setting
+^tag(exit)
+Settings,^checkout(settings)
+^tag(settings)
+^sep()

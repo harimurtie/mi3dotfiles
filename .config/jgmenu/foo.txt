@@ -1,0 +1,12 @@
+Google Chrome,google-chrome-stable --disable-gpu,google-chrome
+Firefox,firefox --disable-gpu,firefox
+QuteBrowser,qutebrowser,qutebrowser
+Finder,thunar,system-file-manager
+Word,Libreoffice --writer,libreoffice-writer
+Excel,Libreoffice --calc,libreoffice-calc
+PowerPoint,Libreoffice --impress,libreoffice-impress
+PPSSPP,ppsspp,ppsspp
+VLC,vlc,vlc
+Terminal,Tilix,utilities-terminal
+Powermenu,clearine,system-reboot
+

@@ -1,0 +1,12 @@
+.window-frame {
+  box-shadow: none;
+  margin: 0;
+}
+
+/* Custom styles */
+VteTerminal, vte-terminal {
+        padding-left: 65px;
+        padding-bottom: 28px;
+        padding-top: 68px;
+        padding-right: 35px
+}
